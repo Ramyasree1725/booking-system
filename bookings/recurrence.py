@@ -121,3 +121,5 @@ def expand_booking_dates(
 ) -> List[tuple]:
     rule = RecurrenceRule.parse(rrule_str)
     return list(iter_occurrences(start, end, rule, max_occurrences=max_occurrences))
+
+# recurrence expansion helpers

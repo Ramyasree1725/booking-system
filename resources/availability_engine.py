@@ -137,3 +137,5 @@ class AvailabilityEngine:
                 if start + duration <= window.end:
                     return {"start": start.isoformat(), "end": (start + duration).isoformat()}
         return None
+
+# availability engine refinements
