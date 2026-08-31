@@ -31,6 +31,9 @@ INSTALLED_APPS = [
     'accounts',
     'resources',
     'bookings',
+    'audit',
+    'reporting',
+    'notifications',
 ]
 
 MIDDLEWARE = [
@@ -43,6 +46,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'common.middleware.RequestIDMiddleware',
+    'common.middleware.RequestTimingMiddleware',
+    'common.middleware.SecurityHeadersMiddleware',
 ]
 
 ROOT_URLCONF = 'booking.urls'
