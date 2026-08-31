@@ -1,0 +1,53 @@
+:root {
+  --bs-primary: #2563eb;
+  --bs-primary-rgb: 37, 99, 235;
+}
+
+body {
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+#calendar {
+  background: #fff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  min-height: 650px;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.fc .fc-button-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.fc .fc-button-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.fc-event {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.navbar-brand {
+  letter-spacing: -0.02em;
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.2);
+}
