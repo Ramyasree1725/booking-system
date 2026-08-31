@@ -39,7 +39,7 @@ pip install -r requirements.txt
 ### 2. Environment
 
 ```bash
-cp .env.example .env
+cp env.example .env
 # Edit .env — set SECRET_KEY, DB_* for PostgreSQL
 ```
 
@@ -114,7 +114,7 @@ booking_system/
 ├── tests/             # pytest suite
 ├── manage.py
 ├── requirements.txt
-├── .env.example
+├── env.example
 └── README.md
 ```
 
